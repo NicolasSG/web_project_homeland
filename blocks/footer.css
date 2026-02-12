@@ -3,13 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 24px;
 }
 
-
 .footer__copyright {
-width: 166px;
-height: 16px;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
+  width: 166px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
 }
