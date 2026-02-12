@@ -9,9 +9,38 @@
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 1280px) {
+  .intro {
+    padding-top: 90px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    height: auto;
+  }
+}
+
 .intro__title {
   display: flex;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro__title {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 .intro__title-text {
@@ -22,6 +51,20 @@
   line-height: 58px;
   margin: 0;
   max-width: 830px;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro__title-text {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title-text {
+    font-size: 32px;
+    line-height: 35px;
+    height: auto;
+  }
 }
 
 .intro__quote {
@@ -35,6 +78,18 @@
   padding-top: 40px;
   padding-bottom: 10px;
   margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro__quote-text {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__quote-text {
+    padding-top: 40px;
+  }
 }
 
 .intro__quote-author {
@@ -55,4 +110,19 @@
   line-height: 163%;
   margin: 0;
   padding-top: 32px;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro__content-text {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__content-text {
+    padding-left: 16px;
+    padding-right: 16px;
+    height: auto;
+  }
 }
