@@ -1,5 +1,8 @@
 .countries {
   padding-top: 92px;
+  padding-bottom: 90px;
+  display: grid;
+  gap: 80px;
 }
 
 .country {
@@ -47,6 +50,7 @@
 
 .country__image {
   grid-area: image;
+  object-fit: cover;
   width: 460px;
   height: 460px;
   box-shadow: 10px 10px 25px 0px #00000080;
