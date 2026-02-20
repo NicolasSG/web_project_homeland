@@ -1,0 +1,13 @@
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 100%;
+  max-width: 1184px;
+  gap: 16px;
+}
+
+.gallery__image {
+  width: 284px;
+  height: 213px;
+  object-fit: cover;
+}
