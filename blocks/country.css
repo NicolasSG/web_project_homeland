@@ -91,7 +91,7 @@
   margin: 0;
 }
 
-.country__subtitle-item__artists {
+.country__subtitle-item_artists {
   font-size: 0.8rem;
   line-height: 100%;
   color: #aaaaaa;
@@ -99,7 +99,7 @@
 }
 
 @media screen and (max-width: 48rem) {
-  .country__subtitle-item__artists {
+  .country__subtitle-item_artists {
     font-size: 0.8rem;
   }
 }
